@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     # 'rest-framework',
     # 'rest-framework.authtoken',
+    'astool',
 )
 
 MIDDLEWARE_CLASSES = (
