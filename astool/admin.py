@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Task, Sprint
+
+admin.site.register(Sprint)
+admin.site.register(Task)
