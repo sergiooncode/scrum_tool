@@ -35,16 +35,16 @@ class NewVisitorTest(unittest.TestCase):
 
         # He logs in with a valid username and password and clicks
         # the submit button
-        submitbutton = self.browser.find_element_by_id('id_submit')
-        usernamebox.send_keys('demo')
-        passwordbox.send_keys('test')
-        submitbutton.click()
+        #submitbutton = self.browser.find_element_by_id('id_submit')
+        #usernamebox.send_keys('demo')
+        #passwordbox.send_keys('test')
+        #submitbutton.click()
         # time.sleep(5)
 
         # Once he is logged in appropriately and he is shown the Board
         # Page with the message showing "Welcome to your Agile Scrum Board!"
-        header_text = self.browser.find_element_by_tag_name('h1').text
-        self.assertIn('Welcome to your Agile Scrum Board!', header_text)
+        #header_text = self.browser.find_element_by_tag_name('h1').text
+        #self.assertIn('Welcome to your Agile Scrum Board!', header_text)
 
 # Also he is invited to create a sprint straight away by
 # showing an "Add Sprint" button which upon hitting shows a
